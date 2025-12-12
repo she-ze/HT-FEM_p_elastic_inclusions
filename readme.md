@@ -167,9 +167,9 @@ In the given example, the left and right vertical boundaries are fully clamped: 
 
 ~~~text
 ***Material properties
- Mat#       E_i          v_i          E_m       v_m     Thick
-1        70000          0.22         2100      0.37      1.0
-2        0.0            0.22         2100      0.37      1.0
+ Mat#        E_i           v_i          E_m       v_m     Thick
+1        70000.0          0.22         2100      0.37       1.0
+2            0.0          0.22         2100      0.37       1.0
 ~~~
 
 For each material set (1..`NMATS`), one line with `NPROP` values is given. The exact meaning of the 5 properties is:
@@ -194,7 +194,7 @@ If `E_i = 0 MPa`, it denotes a hole.
 NEDGE
   11
 Edge#  Elem#                 Nod1#-->NODEG                   (press: normal into element; tangential positive CCW)
-1	      34	      799   786   781   775   769	                             80  0  80  0  80  0  80  0  80  0
+1	      34	      799   786   781   775   769	                80  0     80  0    80  0     80  0      80  0
 ...
 ~~~
 
@@ -222,9 +222,9 @@ The solver interpolates these nodal tractions to obtain the distributed boundary
 ***Center of a circle
 NcenEle
   52
-Elem#  NO.line	   coord(1)---->(2)
-1	         1	  -4.411420544	 6.663253698
-2	         2	   4.446337019	 2.981980384
+Elem#     NO.line	                coord(1)---->(2)
+1	           1	       -4.411420544	 6.663253698
+2	           2	        4.446337019	 2.981980384
 ...
 ~~~
 
