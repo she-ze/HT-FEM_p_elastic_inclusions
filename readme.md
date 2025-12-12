@@ -22,7 +22,7 @@ Create a working directory on your machine and put the required input files in i
 
 ```bash
 cd /pathToCase
-docker run --rm -v "$PWD":/work sheze666/htfem-planeinclusions:1.0
+sudo docker run --rm -v "$PWD":/work sheze666/htfem-planeinclusions:1.0
 ```
 
 Explanation:
