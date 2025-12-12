@@ -1,8 +1,7 @@
 ### Image
 
 - Docker Hub: [`sheze666/htfem-planeinclusions`](https://hub.docker.com/r/sheze666/htfem-planeinclusions)
-- Recommended tag: `1.0` (or `latest` if not specified)
-
+- Recommended tag: `1.0` 
 ### 1. Pull the image
 
 ```bash
