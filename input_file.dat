@@ -1,4 +1,4 @@
-***Control parameters(验证程序正确性)
+***Control parameters
 NTYPE  NPOIN  NELEM  NVFIX
     1   1205    52     50
 NDOFN  NDIME  NSTRE
@@ -8,7 +8,7 @@ NMATS  NPROP  NGAUS
 NODEG
     5 
 ***Element connectivity
-Elem#   nside    Mat#    是否角单元(1是，0否)    局部坐标原点x       y     半径r    nextline(Nod1# -------------> NodN#)
+Elem#   nside    Mat#    CornerElement?(1=yes, 0=No)    Corner_x       Corner_y     inclusion_r    nextline(Nod1# -------------> NodN#)
 1	12	2	0	0	0	0.531808467		
 483	494	496	500	502	506	511	513	531	533	537	539	542	545	547	551	560	559	558	557	556	555	554	553	552	550	546	544	540	538	535	532	529	512	510	507	503	501	497	495	491	490	489	488	487	486	485	484
 2	10	2	0	0	0	0.467818591		
@@ -1379,7 +1379,7 @@ BC#  Node#     (ifpre(i, idofn), idofn=1, ndofn)    (presc(i, idofn), idofn=1, n
 ***Load conditions (including the secend and third conditions)
 NEDGE
   11
-Edge#  Elem#   Nod1#-->NODEG         (press指向内侧的法向量与切向逆时针方向为正)
+Edge#  Elem#   Nod1#-->NODEG          press: positive when the normal points inward and the tangential direction is counterclockwise
 1	34		799   786   781   775   769		80  0  80  0  80  0  80  0  80  0
 2   34		769   756   750   744   738		80  0  80  0  80  0  80  0  80  0
 3   49      738   718   712   706   700		80  0  80  0  80  0  80  0  80  0
