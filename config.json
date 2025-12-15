@@ -1,0 +1,19 @@
+{
+  "field_file": "/home/sheze/Vo/output_file.dat",
+  "matrix_boundary_file": "matrix_boundary.csv",
+  "circles_file": "circles.csv",
+
+  "plots": [
+    {
+      "column": "vonMises",
+      "vmin": 0.5,
+      "vmax": 770.2
+    }
+  ],
+
+  "grid": {
+    "nx": 2000,
+    "ny": 2000,
+    "method": "cubic"
+  }
+}
