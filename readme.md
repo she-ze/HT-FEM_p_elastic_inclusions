@@ -1,8 +1,7 @@
 ### Image
 
 - Docker Hub: [`sheze666/htfem-planeinclusions`](https://hub.docker.com/r/sheze666/htfem-planeinclusions)
-- Recommended tag: `1.0` (or `latest` if not specified)
-
+- Recommended tag: `1.0` 
 ### 1. Pull the image
 
 ```bash
@@ -23,7 +22,7 @@ Create a working directory on your machine and put the required input files in i
 
 ```bash
 cd /pathToCase
-docker run --rm -v "$PWD":/work sheze666/htfem-planeinclusions:1.0
+sudo docker run --rm -v "$PWD":/work sheze666/htfem-planeinclusions:1.0
 ```
 
 Explanation:
