@@ -257,7 +257,7 @@ As long as the overall block order and the header lines are preserved, you may c
 
 matrix_boundary.csv: Matrix boundary
 
-circles.csv: Geometric position parameters of inclusions or holes
+circles.csv: Geometric position parameters of inclusions or holes, if inclusion, 1; if hole, 0.
 
 ```text
            x             y             r    inclusion?
