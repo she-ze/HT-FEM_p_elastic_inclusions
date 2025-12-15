@@ -1,5 +1,5 @@
 {
-  "field_file": "/home/sheze/Vo/output_file.dat",
+  "field_file": "output_file.dat",
   "matrix_boundary_file": "matrix_boundary.csv",
   "circles_file": "circles.csv",
 

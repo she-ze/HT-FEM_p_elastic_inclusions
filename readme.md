@@ -251,5 +251,24 @@ When preparing a new example, you must keep the structure and format of `input_f
 
 As long as the overall block order and the header lines are preserved, you may change the numerical values to build different test cases (different geometries, material properties, loadings, and boundary conditions).
 
+# Plot 
 
+## 1. Configure the region geometry file and generate sampling point data.
+
+matrix_boundary.csv: Matrix boundary
+
+circles.csv: Geometric position parameters of inclusions or holes
+
+```text
+           x             y             r    inclusion?
+-4.411420544,  6.663253698,  0.531808467,           0
+```
+
+Run the Python script `makepointsdata.py` to generate the coordinates of the points to be computed; 
+
+the output is saved as the file `points_xy.dat`.
+
+## 2. run `htfem-planeinclusions`
+
+## 3. Configure the `config.json` file, then run `plotsformanycircle.py` to generate the contour plot.
 
