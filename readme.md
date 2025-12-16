@@ -156,7 +156,7 @@ There are `NVFIX` lines, one for each boundary condition:
 - `ifpre(i,1)`, `ifpre(i,2)`: Flags for each DOF. `1` means this DOF is fixed (prescribed); `0` means free.
 - `presc(i,1)`, `presc(i,2)`: Prescribed displacement values for each DOF (usually 0 for fixed boundaries).
 
-In the given example, the left and right vertical boundaries are fully clamped: both `u1` and `u2` are set to zero.
+In the given example, the two bottom boundaries are fully clamped: both `u1` and `u2` are set to zero.
 
 ---
 
