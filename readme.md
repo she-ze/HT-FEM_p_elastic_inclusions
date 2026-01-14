@@ -2,6 +2,7 @@
 
 - Docker Hub: [`sheze666/htfem-planeinclusions`](https://hub.docker.com/r/sheze666/htfem-planeinclusions)
 - Recommended tag: `1.0` 
+- Any help for using Docker can be found at the [Docker Documentation](https://docs.docker.com/get-started/overview/).
 ### 1. Pull the image
 
 ```bash
