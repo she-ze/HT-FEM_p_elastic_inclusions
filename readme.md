@@ -21,15 +21,10 @@ Create a working directory on your machine and put the required input files in i
 ### 3. run with Docker (Linux/macOS)
 
 ```bash
-cd /pathToCase
+cd /yourPathToCase
 sudo docker run --rm -v "$PWD":/work sheze666/htfem-planeinclusions:1.0
 ```
-#### if you don't want to pull from Docker Hub, you can use the htfem-planeinclusions_1.0.tar file to load the image locally:
-Run the following command in the terminal to load the image:
-```bash
-docker load -i htfem-planeinclusions_1.0.tar
-```
-Then run the docker command as above.
+
 
 Explanation:
 	• -v "$PWD":/work mounts the current directory on the host to /work inside the container.
@@ -39,10 +34,15 @@ Explanation:
 ### 4. Run with Docker (Windows PowerShell)
 
 ```powershell
-cd path
+cd yourPath
 docker run --rm -v "${PWD}:/work" sheze666/htfem-planeinclusions:1.0
 ```
 
+#### Note: If you don't want to pull from Docker Hub, you can use the htfem-planeinclusions_1.0.tar file to load the image locally.  Run the following command in the terminal to load the image, then run the docker command as above.
+
+```bash
+docker load -i htfem-planeinclusions_1.0.tar
+```
 
 # HT-FEM Plane-Inclusion Input File: Format and Explanation
 
