@@ -59,6 +59,7 @@ docker load -i htfem-planeinclusions_1.0.tar
      ```
 
    - Option B: Download as ZIP file
+
         Download the repository as a ZIP file, then extract it to a local folder.
 
 2. Configure the input file
