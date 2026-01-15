@@ -59,16 +59,17 @@ docker load -i htfem-planeinclusions_1.0.tar
      ```
 
    - Option B: Download as ZIP
+  
 
 ​                Download the repository as a ZIP file, then extract it to a local folder.
 
-2. Configure the input file
+1. Configure the input file
          Edit input_file.dat for your case.
-3. Set evaluation points
+2. Set evaluation points
          Add the coordinates of the points of interest to points_xy.dat.
-4. Run the executable
+3. Run the executable
          Run planeStress.exe.
-5. Find results in `output_file.dat`
+4. Find results in `output_file.dat`
 
 
 > [!NOTE]
