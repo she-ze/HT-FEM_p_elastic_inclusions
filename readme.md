@@ -47,7 +47,7 @@ docker run --rm -v "${PWD}:/work" sheze666/htfem-planeinclusions:1.0
 docker load -i htfem-planeinclusions_1.0.tar
 ```
 
-
+------
 
 ## Run on Windows
 1. Get the project
@@ -60,7 +60,7 @@ docker load -i htfem-planeinclusions_1.0.tar
 
    - Option B: Download as ZIP
 
-​		 Download the repository as a ZIP file, then extract it to a local folder.
+​                Download the repository as a ZIP file, then extract it to a local folder.
 
 2. Configure the input file
          Edit input_file.dat for your case.
@@ -72,10 +72,10 @@ docker load -i htfem-planeinclusions_1.0.tar
 
 
 > [!NOTE]
->     The default example is intended for stress contour visualization, so it evaluates many points and writes a large amount of data, which can significantly increase runtime.
->    For a quick performance test, reduce the number of points in points_xy.dat (or clear the file) to minimize the impact of point sampling and output.
->
-> 
+>  The default example is intended for stress contour visualization, so it evaluates many points and writes a large amount of data, which can significantly increase runtime.
+> For a quick performance test, reduce the number of points in points_xy.dat (or clear the file) to minimize the impact of point sampling and output.
+
+------
 
 # HT-FEM Plane-Inclusion Input File: Format and Explanation
 
