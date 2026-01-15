@@ -50,20 +50,24 @@ docker load -i htfem-planeinclusions_1.0.tar
 
 
 ## Run on Windows
-1.	Get the project
-    - Option A: Clone with Git
-```bash
-git clone https://github.com/she-ze/HT-FEM_p_elastic_inclusions.git
-```
-    - Option B: Download as ZIP
-   Download the repository as a ZIP file, then extract it to a local folder.
+1. Get the project
+
+   - Option A: Clone with Git
+
+     ```bash
+     git clone https://github.com/she-ze/HT-FEM_p_elastic_inclusions.git
+     ```
+
+   - Option B: Download as ZIP
+
+​		 Download the repository as a ZIP file, then extract it to a local folder.
 
 2. Configure the input file
-     Edit input_file.dat for your case.
+         Edit input_file.dat for your case.
 3. Set evaluation points
-     Add the coordinates of the points of interest to points_xy.dat.
+         Add the coordinates of the points of interest to points_xy.dat.
 4. Run the executable
-     Run planeStress.exe.
+         Run planeStress.exe.
 5. Find results in `output_file.dat`
 
 
