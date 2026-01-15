@@ -1,3 +1,5 @@
+## RUN with Docker
+
 ### Image
 
 - Docker Hub: [`sheze666/htfem-planeinclusions`](https://hub.docker.com/r/sheze666/htfem-planeinclusions)
@@ -44,6 +46,33 @@ docker run --rm -v "${PWD}:/work" sheze666/htfem-planeinclusions:1.0
 ```bash
 docker load -i htfem-planeinclusions_1.0.tar
 ```
+
+
+
+## Run on Windows
+1.	Get the project
+- Option A: Clone with Git
+```bash
+git clone https://github.com/she-ze/HT-FEM_p_elastic_inclusions.git
+```
+- Option B: Download as ZIP
+
+   Download the repository as a ZIP file, then extract it to a local folder.
+
+2. Configure the input file
+     Edit input_file.dat for your case.
+3. Set evaluation points
+     Add the coordinates of the points of interest to points_xy.dat.
+4. Run the executable
+     Run planeStress.exe.
+5. Find results in `output_file.dat`
+
+
+> [!NOTE]
+>     The default example is intended for stress contour visualization, so it evaluates many points and writes a large amount of data, which can significantly increase runtime.
+>    For a quick performance test, reduce the number of points in points_xy.dat (or clear the file) to minimize the impact of point sampling and output.
+>
+> 
 
 # HT-FEM Plane-Inclusion Input File: Format and Explanation
 
