@@ -113,7 +113,7 @@ NODEG
 
 With
 
-- `NTYPE`: Analysis type (e.g., 1 = plane stress; This version does not include plane-stress problems.).
+- `NTYPE`: Analysis type (e.g., 1 = plane stress; This version does not include plane-strain problems.).
 - `NPOIN`: Total number of nodes in the mesh. Must match the number of lines in the Node coordinates block.
 - `NELEM`: Total number of elements. Must match the number of elements in the Element connectivity block.
 - `NVFIX`: Number of constrained boundary conditions (number of BC lines in the Constrained boundary conditions block).

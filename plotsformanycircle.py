@@ -43,7 +43,7 @@ CONFIG_DEFAULT = {
         "ny": 2000,
         "method": "cubic",  # "cubic" / "linear" / "nearest"
     },
-    # 颜色列表（你的经典色带）
+    # 颜色列表（经典色带）
     "colors": [
         "#0000ff",
         "#005dff",
