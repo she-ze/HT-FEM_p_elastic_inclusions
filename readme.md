@@ -72,7 +72,7 @@ docker load -i htfem-planeinclusions_1.0.tar
 
 
 > [!NOTE]
->  The default example is intended for stress contour visualization, so it evaluates many points and writes a large amount of data, which can significantly increase runtime.
+>  The file 'points_xy_for_example3.dat' is intended for stress contour visualization, so it evaluates many points and writes a large amount of data, which can significantly increase runtime. You can copy this file to 'points_xy.dat' to reproduce the contour plots of example 3 shown in the article.
 > For a quick performance test, reduce the number of points in points_xy.dat (or clear the file) to minimize the impact of point sampling and output.
 
 ------
