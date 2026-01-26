@@ -72,9 +72,12 @@ docker load -i htfem-planeinclusions_1.0.tar
 
 
 > [!NOTE]
+> 
 > The solver reads two input files:
-> (1) **input_file.dat** — main case settings (configured for Example 3 by default).
-> (2) **points_xy.dat** — lists the points where the program evaluates displacement and stress and writes the results to `output_file.dat`.
+> 
+> (1) `input_file.dat` — main case settings (configured for Example 3 by default).
+> 
+> (2) `points_xy.dat` — lists the points where the program evaluates displacement and stress and writes the results to `output_file.dat`.
 >
 > Reproduction: 
 >
