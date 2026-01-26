@@ -72,8 +72,15 @@ docker load -i htfem-planeinclusions_1.0.tar
 
 
 > [!NOTE]
->  The file 'points_xy_for_example3.dat' is intended for stress contour visualization, so it evaluates many points and writes a large amount of data, which can significantly increase runtime. You can copy this file to 'points_xy.dat' to reproduce the contour plots of example 3 shown in the article.
-> For a quick performance test, reduce the number of points in points_xy.dat (or clear the file) to minimize the impact of point sampling and output.
+> The solver reads two input files:
+> (1) **input_file.dat** — main case settings (configured for Example 3 by default).
+> (2) **points_xy.dat** — lists the points where the program evaluates displacement and stress and writes the results to `output_file.dat`.
+>
+> Reproduction: 
+>
+> To reproduce the stress contour plots for Example 3 shown in the article, copy or rename `points_xy_for_example3.dat` to `points_xy.dat`. This uses a dense set of evaluation points, which can significantly increase wall-clock runtime and produce much larger output files.
+>
+> CPU time: The reported CPU time covers all non-I/O computational cost.
 
 ------
 
